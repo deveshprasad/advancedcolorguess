@@ -88,10 +88,7 @@ button:hover{
   text-transform: uppercase;
   
 }
-.row{
-  max-width: 100%;
-  text-align: center;
-}
+
 p{
   color: white;
   text-align: center;
@@ -100,6 +97,9 @@ p{
   #container{
     max-width: 80%;
     margin: 4% auto;
+  }
+  .dropdown{
+    margin-top: 10%;
   }
   
 }
