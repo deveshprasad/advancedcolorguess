@@ -88,6 +88,10 @@ button:hover{
   text-transform: uppercase;
   
 }
+.row{
+  text-align: center;
+}
+
 
 p{
   color: white;
