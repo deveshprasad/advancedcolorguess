@@ -8,19 +8,12 @@ var messageDisplay=document.querySelector("#message");
 var h1=document.querySelector("h1");
 var resetButton=document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
-
-
 init();
-
 function init(){
 	setupModeButtons();
 	setupSquares();
 	reset();
 }
-
-
-
-
 function setupModeButtons(){
 	for(var i = 0; i < modeButtons.length; i++){
 		modeButtons[i].addEventListener("click", function(){
@@ -35,15 +28,10 @@ function setupModeButtons(){
 			} else {
 				numSquares=9;
 			}
-			 
 			reset();
 		});
 	}
 }
-
-
-
-
 function reset(){
 	colors = generateRandomColors(numSquares);
 	//pick a new random color from array
@@ -63,15 +51,9 @@ function reset(){
 	}
 	h1.style.background = "#222831";
 }
-
 resetButton.addEventListener("click", function(){
 	reset();
 })
-
-
-
-
-
 function setupSquares(){
 for(var i=0;i<squares.length;i++){
    squares[i].style.backgroundColor=colors[i];
@@ -91,7 +73,6 @@ for(var i=0;i<squares.length;i++){
        messageDisplay.textContent="TRY AGAIN ❌";
        messageDisplay.style.color="red";
      }
-
    });
 }
 }
@@ -116,5 +97,4 @@ function randomColor(){
   var g=Math.floor(Math.random()*256);
   var b=Math.floor(Math.random()*256);
   return  "rgb("+r+", "+g+", "+b+")"; 
-
 }
