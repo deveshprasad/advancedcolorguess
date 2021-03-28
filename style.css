@@ -1,5 +1,4 @@
 body{
-  
   margin: 0;
   font-family: "Montserrat","Avenir";
 }
@@ -16,7 +15,6 @@ body{
 #container{
   max-width: 50%;
   margin: 1% auto;
-
 }
 h1{
   color: white;
@@ -55,18 +53,15 @@ button {
 	-moz-transition: all 0.3s;
 	outline: none;
 }
-
 button:hover {
 	color: white;
 	background:#222831;
 }
-
 #message{
   display: inline-block;
   width: 20%;
   font-weight: 800;
 }
-
 .dropdown:hover .img-top {
   display: inline;
 }
@@ -80,8 +75,7 @@ button:hover {
   top: 0;
   left: -20px;
   z-index: 99;
-  border-radius: 15%;
-  
+  border-radius: 15%;  
 }
 .drop{
   color:#222831;
@@ -89,10 +83,8 @@ button:hover {
   font-size: 2rem;
   font-weight: 100;
   text-transform: uppercase;
-  
 }
 .row{
-  
   text-align: center;
   margin-top: auto;
 }
